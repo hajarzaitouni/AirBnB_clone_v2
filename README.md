@@ -17,7 +17,6 @@ Console is a commande line interpreter, also known as "command-line interface" (
 * Destroy an object.
 <br>
 <br>
-## General Use
 ### How to start it
 In order to gain access to our console, you must first clone the following repository:
 
@@ -74,8 +73,8 @@ $
 As stated above, using our __AirBnB console__  you will have access to the following commands:
 
 * __create__
-        * `Usage: create <class_name>`
-        * Example:
+	* `Usage: create <class_name>`
+	* Example:
         ```
         $ ./console.py
         (hbnb) create
@@ -86,8 +85,8 @@ As stated above, using our __AirBnB console__  you will have access to the follo
         ```
 
 * __show__
-        * `usage: show <class_name> <id>`
-        * Example:
+	* `usage: show <class_name> <id>`
+	* Example:
         ```
         $ ./console.py
         (hbnb) show BaseModel 39e416ad-bb6e-4638-a326-428380805934
@@ -95,8 +94,8 @@ As stated above, using our __AirBnB console__  you will have access to the follo
         ```
 
 * __all__
-        * `usage: all or all <class_name> or <class_name>.all()`
-        * Example:
+	* `usage: all or all <class_name> or <class_name>.all()`
+	* Example:
 	```
         $ ./console.py
         (hbnb) create User
@@ -111,8 +110,8 @@ As stated above, using our __AirBnB console__  you will have access to the follo
         ```
 
 * __update__
-        * `usage: update <class_name> <id> <attribute_name> <value_name>`
-        * Example:
+	* `usage: update <class_name> <id> <attribute_name> <value_name>`
+	* Example:
         ```
         $ ./console.py
         (hbnb) update User 1da69305-67b4-477f-b5ce-352927323dfd first_name "Betty"
@@ -122,8 +121,8 @@ As stated above, using our __AirBnB console__  you will have access to the follo
         ```
 
 * __count__
-        * `usage: count <class_name> or <class_name>.count()`
-        * Example:
+	* `usage: count <class_name> or <class_name>.count()`
+	* Example:
         ```
         $ ./console.py
         (hbnb) count User
@@ -136,7 +135,7 @@ As stated above, using our __AirBnB console__  you will have access to the follo
         ```
 
 * __destroy__
-        * `usage: destroy <class_name> <id>`
+	* `usage: destroy <class_name> <id>`
 	* Example:
         ```
         $ cat file.json ; echo ""
