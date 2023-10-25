@@ -51,3 +51,4 @@ class Place(BaseModel, Base):
             for rev in all_instan_reviews:
                 if rev.place_id == self.id:
                     my_reviews.append(rev)
+            return my_reviews
