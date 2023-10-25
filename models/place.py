@@ -11,7 +11,7 @@ class Place(BaseModel, Base):
     Attributes:
         __tablename__ (Str): MySQL's table name to store places.
         city_id (String): place's city id.
-        user_id (String): olace's user id.
+        user_id (String): place's user id.
         name (String): place's name.
         description (String): place's description.
         number_rooms (Integer): number of rooms.
