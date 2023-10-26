@@ -76,7 +76,7 @@ class Place(BaseModel, Base):
                     my_amenities.append(amenity)
             return my_amenities
 
-        @setter.amenities
+        @amenities.setter
         def amenities(self, value):
             """set amenities that handles append method for adding
             an Amenity.id to the attribute amenity_ids
